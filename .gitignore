@@ -109,6 +109,8 @@ fabric.properties
 
 .npm
 .DS_Store
+.idea
+.data
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
