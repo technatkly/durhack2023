@@ -1,0 +1,1 @@
+academy_md = "## Your Academy"
