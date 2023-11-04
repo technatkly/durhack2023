@@ -8,7 +8,7 @@ spending_df = pd.DataFrame({
     "Category": ["Expense", "Savings", "Income", "Expense", "Expense", "Expense", "Expense", "Savings", "Expense", "Expense"],
     "Item": ["food", "part time job", "Parents", "textbook", "leisure", "textbook", "transportation", "part time job", "food", "tutoring"],
     "price": [f'£{price:.2f}' for price in priceList],
-    "total balance": ['-', '+', '+', '-', '-', '+', '-', '+', '+', '-'],
+    "total balance": ['-', '+', '+', '-', '-', '-', '-', '+', '-', '-'],
 })
 
 sum = sum(priceList)
