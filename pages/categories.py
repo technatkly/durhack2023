@@ -1,16 +1,13 @@
-categories_md = "## Your Expenses in Category"
 from taipy.gui import Gui, notify, navigate, Markdown
 import pandas as pd
 
 costList = [9.84, 20.00, 60.00, 7.24, 2.61, 8.78, 4.35, 10.00, 5.17, 9.83]
 spending_df = pd.DataFrame({
-    "Category": ["Expense", "Savings", "Income", "Expense", "Expense", "Expense", "Expense", "Savings", "Expense",
-                 "Expense"],
-    "Item": ["food", "part time job", "Parents", "textbook", "leisure", "textbook", "transportation", "part time job",
-             "food", "tutoring"],
-    "Cost": [f'£{price:.2f}' for price in costList]
-})
-
+     "Category": ["Expense", "Savings", "Income", "Expense", "Expense", "Expense", "Expense", "Savings", "Expense", "Expense"],
+     "Item": ["food", "part time job", "Parents", "textbook", "leisure", "textbook", "transportation", "part time job", "food", "tutoring"],
+     "price": [f'£{price:.2f}' for price in costList],
+     "total balance": ['-', '+', '+', '-', '-', '-', '-', '+', '-', '-'],
+ })
 totalExpense = sum(costList)
 
 
@@ -21,4 +18,4 @@ def spending_df_on_add(state, var_name, payload):
     notify(state, "S", f"Added a new expense.")
 
 
-categories_md = Markdown(f"<|{spending_df}|table|filter=True|on_add=spending_df_on_add|> Total = £<|{totalExpense}|>")
+categories_md = Markdown("Your Expenses in Category<|{spending_df}|table|filter=True|on_add=spending_df_on_add|>Total = £<|{totalExpense}|>")
