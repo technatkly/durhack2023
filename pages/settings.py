@@ -1,3 +1,4 @@
+settings_md = "## Settings"
 settings_md = """
 <h3> Settings </h3> <p> </p>
 Notification: <|{value}|toggle|lov=On;Off|> <p> </p>

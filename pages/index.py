@@ -1,9 +1,12 @@
-index_md = """
-# Home
+from pages.budget import state
+from pages.categories import totalExpense
 
-My text: <|{text}|>
 
-<|{text}|input|>
+index_md = f"""
+## Welcome back, Tom!
 
-<|Run local|button|on_action=on_button_action|>
+Total Expense: <|{totalExpense}|>
+
+Total Budget: <|{text}|>
+
 """
