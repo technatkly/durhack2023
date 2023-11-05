@@ -9,7 +9,7 @@ text = "Original text"
 
 # icon_insight = "<|html|<img src="../Image/insight_icon.jpg" alt="Description of the image" width="300" height="200">|>"
 
-root_md = "<|menu|lov={[('index', 'Quick Insight')), ('budget', 'Your Budget'), ('categories', 'The Categories'), ('academy', 'Your Academy'), ('settings', 'Settings')]}|on_action=on_menu|>"
+root_md = "<|menu|lov={[('index', 'Quick Insight'), ('budget', 'Your Budget'), ('categories', 'The Categories'), ('academy', 'Your Academy'), ('settings', 'Settings')]}|on_action=on_menu|>"
 
 pages = {
     "/": root_md,
