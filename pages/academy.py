@@ -4,6 +4,8 @@ academy_md = """
 <p> </p>
 Expense: <|{expense}|> <p> </p>
 Budget: <|{budget}|> <p> </p>
+<p> </p>
+Save Data: <|{content}|file_download|don't bypass_preview|>
 """
 expense = 700
 budget = 600
