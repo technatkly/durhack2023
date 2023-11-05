@@ -1,0 +1,26 @@
+{
+"id": "DATANODE_historical_temperature_90f11118-35e9-4f3c-882c-c1cf1ceb5018",
+"config_id": "historical_temperature",
+"scope": "<Scope.SCENARIO: 1>",
+"storage_type": "pickle",
+"name": null,
+"owner_id": "SCENARIO_my_scenario_4212072c-8a95-4056-831b-56299ee18d83",
+"parent_ids": [
+"TASK_predict_7037cc70-398c-46b5-97c5-27490187bceb"
+],
+"last_edit_date": "2023-11-05T03:17:12.012796",
+"edits": [
+{
+"timestamp": "2023-11-05T03:17:12.012796"
+}
+],
+"version": "3b3d17dc-beaa-4c35-9c4a-b5d82f6b61ac",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"is_generated": true
+}
+}

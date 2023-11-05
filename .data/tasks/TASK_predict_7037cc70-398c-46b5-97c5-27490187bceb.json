@@ -1,0 +1,20 @@
+{
+"id": "TASK_predict_7037cc70-398c-46b5-97c5-27490187bceb",
+"owner_id": "SCENARIO_my_scenario_4212072c-8a95-4056-831b-56299ee18d83",
+"parent_ids": [
+"SCENARIO_my_scenario_4212072c-8a95-4056-831b-56299ee18d83"
+],
+"config_id": "predict",
+"input_ids": [
+"DATANODE_historical_temperature_90f11118-35e9-4f3c-882c-c1cf1ceb5018",
+"DATANODE_date_to_forecast_92f3f51f-4223-45ff-8e14-51d15db408ea"
+],
+"function_name": "predict",
+"function_module": "pages.budget",
+"output_ids": [
+"DATANODE_predictions_f3b101c6-e226-4fe6-8ed9-67e2db2e1efb"
+],
+"version": "3b3d17dc-beaa-4c35-9c4a-b5d82f6b61ac",
+"skippable": false,
+"properties": {}
+}
