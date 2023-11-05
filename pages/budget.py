@@ -21,8 +21,5 @@ def on_change(state, var_name, var_value):
     if var_name == "text" and var_value == "Reset":
         state.text = "According to your set budget, you have __ money left"
         return
-
-
+    
 text = "My budget"
-
-
