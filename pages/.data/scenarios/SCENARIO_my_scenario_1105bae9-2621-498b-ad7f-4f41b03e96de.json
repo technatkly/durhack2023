@@ -1,0 +1,16 @@
+{
+"id": "SCENARIO_my_scenario_1105bae9-2621-498b-ad7f-4f41b03e96de",
+"config_id": "my_scenario",
+"tasks": [
+"TASK_predict_abf787bc-2940-41c7-896e-950b0e4ab0d8"
+],
+"additional_data_nodes": [],
+"properties": {},
+"creation_date": "2023-11-05T03:16:52.908021",
+"primary_scenario": false,
+"subscribers": [],
+"tags": [],
+"version": "679bcc92-ffa6-4d75-a92e-c8e2f0f2b344",
+"sequences": null,
+"cycle": null
+}
